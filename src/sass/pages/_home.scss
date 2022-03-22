@@ -1,0 +1,19 @@
+/* ********* */
+/* @HOME */
+/* ********* */
+body{
+    background-color: lighten(map-get(map-get($colores, fondo), base), 25%);
+}
+.contenedor{
+    // Tamaño de la caja
+    height: 100vh;
+    max-height: 800px;
+    max-width: $desktop;
+    margin: 0 auto;
+
+    // Multiples backgrounds
+    background: url(../assets/img/desktop/iphones-right.png) right  top no-repeat,
+                //url(../assets/img/desktop/iphones-left.png) left top no-repeat,
+                linear-gradient(to left,map-get(map-get($colores, fondo), base) 0%, #c6d2e2);    
+                background-size: contain;  
+            }

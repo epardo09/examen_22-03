@@ -1,0 +1,33 @@
+/* ********* */
+/* @GRID*/
+/* ********* */
+.contenedor{
+    display: grid;
+    grid-template-columns: 1% 1fr 8% 1fr 1%;
+
+
+    .contenido{
+        grid-column: 2;
+        grid-template-rows: 1fr 1fr;
+        
+    
+        .explicacion{
+        color: #a8a3a3;
+        }
+
+        .ex_especial{
+        color: #164f9b;
+        border-left:4px solid #164f9b;;
+        }
+        
+        .btn{
+            color: white;
+            padding: 10px;
+            background-color: rgba(43, 43, 243, 0.979);
+            text-decoration: none;
+            border-radius: 10px;
+        }
+    }
+   
+
+}

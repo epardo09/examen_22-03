@@ -1,0 +1,44 @@
+/* ********* */
+/* @VARIABLES */
+/* ********* */
+
+//colores
+$gris: #d3cfcf;
+$azul: #164f9b;
+
+$colores:(
+    fondo:(
+        base:#a3bddf
+    ),
+    texto:(
+        base:$gris,
+        parrafo: $azul
+    ),
+    links: (
+        base:white,
+    ),
+    botones: (
+        izq: $azul,
+    ),
+    
+);
+      
+// TIPOGRAFIA
+$fuenteBase: 16px;
+
+$fontSize: (
+    // SEO
+    h1: 3rem,
+    h2: 2rem,
+    h3: 1.5,
+    links: 1.5rem,
+    // NO SEO
+    // Equivalente a 16px (Párrafo)
+    h4: 1rem,
+    h5: 0.75rem,
+    h6: 0.5rem
+);
+
+$interlineado: 1.5rem;
+// Tamaños
+$desktop: 1366px;
